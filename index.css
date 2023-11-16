@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+.menu {
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    text-align: center;
+    width:530px;
+    margin:10px auto;
+    border:1px #a8a8a8 solid;
+    border-radius: 80px;;
+}
+    .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+    /*Task1. Khi hover thì đổi màu nền và màu chữ*/
+        .menu ul li a:hover {
+        color:black;
+        background-color: pink;
+
+    /*Task2. Ẩn menu con*/
+}
+        .menu-con {
+            display:none;
+}
+    /*Hiển thị menu con khi hover vào menu item*/
+        .menu ul li:hover .menu-con {
+            background-color: #333;
+            /*hiển thị cùng một hàng với menu item*/
+            position: absolute;/*tạo ra một khung chứa menu con*/
+            display: block;
+}
+    /*Hiển thị menu con theo chiều dọc*/
+        .menu ul li:hover .menu-con li {
+            display: block;
+            float: none;
+} 
+
+        /*Task3. Đổi màu chữ khi hover vào menu item*/
+        .menu ul li:hover .menu-con li a {
+            color:blue;
+}
+        /*Task4. Đổi màu nền khi hover vào menu item*/
+        .menu ul li:hover .menu-con li a:hover {
+            background-color: brown;
+} 
+/* .logo{
+    float:left;
+    margin:200px 0px 0px 100px;
+}
+.logo2{
+    float:left;
+    margin:200px 0px 0px 100px;
+
+}
+.logo3{
+    float:left;
+    margin:200px 0px 0px 100px;
+} */
+
+.bf1{
+    background-color: whitesmoke;
+    width:1000px;
+    margin: 0px auto;
+}
+.bf2{
+    background-color: whitesmoke;
+    width:1000px;
+    margin: 0px auto;
+}
+.bf3{
+    background-color: whitesmoke;
+    width:1000px;
+    margin: 0px auto;
+}
+/* # */
+.sf1{
+    width:900px;
+    height:147px;
+    margin: 0px 0px 0px 30px;
+}
+.sfp11{
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+}
+.sfp12{
+    color:black;
+    text-decoration: none;
+
+}
+.img2{
+    float:left;
+    padding:0px 10px 0px 0px;
+}
+/* # */
+.sf2{
+    width:750px;
+    height:147px;
+    margin: 0px 0px 0px 30px;
+}
+.sfp13{
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+}
+.sfp14{
+    color:black;
+    text-decoration: none;
+
+}
+.img3{
+    float:left;
+    padding:0px 10px 0px 0px;
+}
